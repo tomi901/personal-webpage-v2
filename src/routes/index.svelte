@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<article class="grid place-items-center h-screen">
+    <div class="grid place-items-center">
+        <h1>Tomás Rinaldi</h1>
+        <p>WIP add basic info here</p>
+    </div>
+</article>

@@ -1,0 +1,16 @@
+﻿/* Replace import with local file */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    @apply text-amber-50 bg-slate-900;
+}
+
+h1 { @apply text-3xl font-bold; }
+h2 { @apply text-2xl font-bold; }
+h3 { @apply text-xl font-bold; }
+h4 { @apply text-lg font-bold; }
