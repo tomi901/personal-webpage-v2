@@ -1,10 +1,14 @@
-﻿My name is Tom *(Or Tomás)* Rinaldi.
+﻿## About me:
+
+My name is Tom <small>(Or Tomás)</small> Rinaldi.
 
 I'm a full stack developer, having worked on applications using different languages
 like **JavaScript** and **C#**, using technologies like **Express.js**, **React**,
 **Svelte** *(This page was made with **SvelteKit**)*, **Unity** and **Unreal Engine**.
 
-## The Pixel
+---
+
+### The Pixel
 
 When I was in school, I wanted to create videogames and enter the industry. In 2016
 my first complete game was **The Pixel**, a simple mobile arcade game where pixels
@@ -19,7 +23,9 @@ The code was kinda rough on the edges, and probably it had a lot of spaghettific
 so I decided to learn how to make a game from some other place rather than YouTube
 tutorials.
 
-## Simius Labs
+---
+
+### Simius Labs
 
 I started studying a **videogame development degree** at the **Mendoza University**
 and along with some classmates we formed **Simius Labs**, to start making games.
@@ -28,12 +34,16 @@ who can't jump but uses his hammer to go though the level using different mechan
 
 <youtube>PyeTMSSJ5uM</youtube>
 
-## Mimic Games
+---
+
+### Mimic Games
 
 During my studies, I worked at Mimic Games, learning how to program in a team, how to
 use git and many programming patterns.
 
-## Urban Explorers
+---
+
+### Urban Explorers
 
 Later, I joined with some classmates and friends to start a game about urban exploration,
 with the mechanics focusing on the lighting as a resource.

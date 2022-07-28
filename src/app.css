@@ -8,9 +8,20 @@
 body {
     font-family: 'Share Tech Mono', monospace;
     @apply text-amber-50 bg-slate-900;
+    font-size: 150%;
 }
 
-h1 { @apply text-3xl font-bold; }
-h2 { @apply text-2xl font-bold; }
-h3 { @apply text-xl font-bold; }
-h4 { @apply text-lg font-bold; }
+h1 { @apply text-6xl font-bold; }
+h2 { @apply text-5xl font-bold; }
+h3 { @apply text-4xl font-bold; }
+h4 { @apply text-3xl font-bold; }
+h5 { @apply text-2xl font-bold; }
+h6 { @apply text-lg font-bold; }
+
+li {
+    @apply list-disc ml-8;
+}
+
+small {
+    @apply text-sm;
+}

@@ -1,4 +1,22 @@
+<script lang="ts" context="module">
+    import type { Load } from "@sveltejs/kit"
+    
+    export const load: Load = async ({ fetch }) => {
+        const markdown = await fetch('bio.md').then(res => res.text());
+        return {
+            props: {
+                markdown,
+            },
+        };
+    }
+    
+    export const hydrate = false;
+</script>
+
 <script lang="ts">
+    import AppMarkdown from "@components/AppMarkdown.svelte";
+    
+    export let markdown: string;
     let links: { displayName: string, link: string }[] = [
         { displayName: "Curriculum Vitae", link: "https://firebasestorage.googleapis.com/v0/b/tom-rinaldi.appspot.com/o/public%2FWeb%2FCV.pdf?alt=media" },
         { displayName: "LinkedIn", link: "https://www.linkedin.com/in/tom%C3%A1s-rinaldi-50244a1a1/" },
@@ -28,8 +46,8 @@
     {/each}
 </header>
 
-<article class="p-10 bg-slate-700">
-    Test
+<article class="py-16 px-36 bg-slate-800">
+    <AppMarkdown source={markdown} />
 </article>
 
 <style>
