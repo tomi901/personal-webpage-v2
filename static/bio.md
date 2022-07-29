@@ -56,3 +56,10 @@ functionality. Some stuff I made was:
 * Inventory system
 * Command console
 * Postprocessing effects
+
+---
+
+### Globant
+
+Since December 2021 I'm working at **Globant**, a company that provides software to many
+different industries. Working with Node.js and web.
