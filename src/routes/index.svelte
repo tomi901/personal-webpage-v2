@@ -8,9 +8,7 @@
                 markdown,
             },
         };
-    }
-    
-    export const hydrate = false;
+    };
 </script>
 
 <script lang="ts">

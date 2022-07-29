@@ -1,7 +1,7 @@
 ﻿<script lang="ts">
     import type { marked } from "marked";
     import SvelteMarkdown, { type Renderers } from "svelte-markdown";
-    import SmartLink from "./AppMarkdown/SmartLink.svelte";
+    import SmartLink from "./SmartLink.svelte";
     
     export let source: string;
 
