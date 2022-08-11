@@ -22,4 +22,6 @@
     .app-md :global(p) { @apply my-8 text-2xl; }
 
     .app-md :global(hr) { @apply my-8; }
+    
+    .app-md :global(a) { @apply text-amber-300 hover:text-amber-500; }
 </style>

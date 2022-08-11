@@ -10,5 +10,5 @@
 {#if isYoutubeUrl(href)}
     <YoutubeVideo src={href} />
 {:else}
-    <Link {href} {title} />
+    <Link {href} {title}>{title || href}</Link>
 {/if}

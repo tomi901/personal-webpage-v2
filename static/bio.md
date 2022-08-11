@@ -25,6 +25,19 @@ tutorials.
 
 ---
 
+### Catneep
+
+A rhythm game that plays like guitar hero but with visual effects distracting the
+players due to the band members consuming catneep. This was my first game I made
+with a team.
+
+https://www.youtube.com/watch?v=Smr93Thbb58
+
+It wasn't a complete game but it was a good start. And it involved ensuring the
+visuals match the music as it is important in a rhythm game.
+
+---
+
 ### Simius Labs
 
 I started studying a **videogame development degree** at the **Mendoza University**
@@ -34,12 +47,28 @@ who can't jump but uses his hammer to go though the level using different mechan
 
 https://www.youtube.com/watch?v=PyeTMSSJ5uM
 
+After that we remade **The Pixel** into a new 3D game for android, with
+visual effects and some new mechanics.
+
+https://www.youtube.com/watch?v=rpAZsKSNhlY
+
+Currently a new improved version is being develop, with better codebase
+and improved graphics using the new Unity Technologies.
+
 ---
 
 ### Mimic Games
 
 During my studies, I worked at Mimic Games, learning how to program in a team, how to
 use git and many programming patterns.
+
+I worked on a multi-platform app to track a baseball game score, using **C#** and
+**Unity** with heavy use of the MVC pattern. I also made some other casual games and
+tested new game concepts with the team each day of the week.
+
+More info about Mimic Games at:
+
+https://www.mimicgames.com/
 
 ---
 
