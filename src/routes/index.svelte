@@ -28,14 +28,14 @@
              alt="My profile"
              class="profile-pic w-72 aspect-square rounded-full object-cover border-amber-50 border-8 mb-10 drop-shadow-2xl"
         >
-        <h1 class="drop-shadow-2xl">Tomás Rinaldi</h1>
-        <p class="drop-shadow-2xl">WIP add basic info here</p>
+        <h1 class="drop-shadow-2xl text-center">Tomás Rinaldi</h1>
+        <p class="drop-shadow-2xl text-center">Programmer</p>
         
     </div>
-    <h3 class="absolute bottom-0 p-5 opacity-50">(Scroll down for more info)</h3>
+    <h5 class="absolute bottom-0 p-5 opacity-50 text-center">(Scroll down for more info)</h5>
 </main>
 
-<header class="sticky top-0 bg-slate-700 shadow-2xl flex flex-row items-center">
+<header class="top-0 bg-slate-700 shadow-2xl flex flex-col sm:sticky sm:flex-row sm:items-center">
     <!--h1>Test Header</h1-->
     {#each links as link}
         <a href="{link.link}" target="_blank" class="link-btn px-5 py-2 flex justify-center items-center hover:bg-slate-600">
@@ -44,7 +44,7 @@
     {/each}
 </header>
 
-<article class="py-16 px-36 bg-slate-800">
+<article class="py-16 px-5 sm:px-20 lg:px-32 bg-slate-800">
     <AppMarkdown source={markdown} />
 </article>
 
